@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    height: 960px;
+    width: 1016px;
+    background-color: white;
+}
+
+
+
+header{
+
+}
+
+@media only screen and (max-device-width: 400px){
+    
+    .container{
+        height: 568px;
+        width: 320px;
+    }
+
+}
