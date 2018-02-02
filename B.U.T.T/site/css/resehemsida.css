@@ -10,6 +10,7 @@ body{
     width: 1016px;
     background-color: white;
     margin: auto;
+    grid-row-gap: 10px;
 }
 
 
