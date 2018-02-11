@@ -170,6 +170,9 @@ h3{
     color: rgb(209, 65, 225);
     margin-left: 10px;
 }
+
+
+
 @media only screen and (max-device-width: 400px){
     
     .container{
@@ -222,6 +225,33 @@ h3{
     }
 
     /* "Populära resemål" listan */
+    .populärt{
+        grid-row: 3/8;
+        grid-column: 1/6;
+    }
+    
+    h2{ 
+        font-size: 20px;
     }
 
+    .pland1{
+        grid-row: 3/5;
+    }
+
+    .pland2{
+        grid-row: 5/7;
+    }
+
+    .pland3{
+        grid-row: 7/9;
+    }
+
+    .pland4{
+        grid-row: 9/11;
+    }
+
+    h3{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
 }
