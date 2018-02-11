@@ -14,6 +14,7 @@ body{
 }
 
 
+/* Headern */
 header{
     grid-row: 1/3;
     grid-column: 1/11;
@@ -96,6 +97,7 @@ li{
 }
 
 
+/* "Populära Resemål" listan */
 @media only screen and (max-device-width: 400px){
     
     .container{
@@ -105,6 +107,7 @@ li{
         width: 320px;
     }
 
+    /* Headern */
     header{
         grid-row: 1/2;
         grid-column: 1/6;
@@ -124,6 +127,7 @@ li{
         margin-bottom: 0px;
     }
 
+    /* Menyn */
     .menu i.material-icons{    
         font-size: 12px;
     }
@@ -143,6 +147,7 @@ li{
         grid-row: 2/4;
         grid-column: 5/6;
         font-size: 10px; 
+    /* "Populära resemål" listan */
     }
 
 }
