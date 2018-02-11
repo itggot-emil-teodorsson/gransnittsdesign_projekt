@@ -100,6 +100,63 @@ p{
 
 
 /* "Populära Resemål" listan */
+.populärt{
+    grid-row: 6/14;
+    grid-column: 2/10;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(12,1fr);
+    display: grid;
+}
+
+h2{
+    grid-row: 1/3;
+    grid-column: 1/11;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(209, 65, 225);
+}
+
+.pland1{
+    grid-row: 4/6;
+    grid-column: 1/11;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(209, 65, 225);
+}
+
+}
+
+.pland2{
+    grid-row: 6/8;
+    grid-column: 1/11;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(209, 65, 225);
+}
+
+}
+
+.pland3{
+    grid-row: 8/10;
+    grid-column: 1/11;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(209, 65, 225);
+}
+
+.pland4{
+    grid-row: 10/12;
+    grid-column: 1/11;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(209, 65, 225);
+}
+h3{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 65, 225);
+    margin-left: 10px;
+}
 @media only screen and (max-device-width: 400px){
     
     .container{
