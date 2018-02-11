@@ -171,6 +171,15 @@ h3{
     margin-left: 10px;
 }
 
+/* "Alfabetisk Ordning" listan */
+ .alfabetisk{ 
+    grid-row: 14/21;
+    grid-column: 2/10;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(12,1fr);
+    display: grid;
+} 
+
 
 
 @media only screen and (max-device-width: 400px){
