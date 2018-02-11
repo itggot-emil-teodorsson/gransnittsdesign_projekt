@@ -107,6 +107,7 @@ li{
 
     header{
         grid-row: 1/2;
+        grid-column: 1/6;
     }
     
     input{
