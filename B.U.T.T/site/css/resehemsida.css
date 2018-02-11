@@ -80,16 +80,18 @@ button:active:after {
     transition: 0s
 }
 
-li{
-    text-align: center;
+p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu{
     display: none;
-    grid-row: 3/5;
+    grid-row: 3/6;
     grid-column: 10/11;
     background: white;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
 }
 
 .show{
@@ -146,7 +148,9 @@ li{
     .menu{
         grid-row: 2/4;
         grid-column: 5/6;
-        font-size: 10px; 
+        font-size: 12px; 
+    }
+
     /* "Populära resemål" listan */
     }
 
