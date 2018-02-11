@@ -125,6 +125,8 @@ h2{
     border-color: rgb(209, 65, 225);
 }
 
+.pland1:active{
+    background-color: rgb(235, 235, 235)
 }
 
 .pland2{
@@ -135,6 +137,8 @@ h2{
     border-color: rgb(209, 65, 225);
 }
 
+.pland2:active{
+    background-color: rgb(235, 235, 235)
 }
 
 .pland3{
@@ -145,6 +149,10 @@ h2{
     border-color: rgb(209, 65, 225);
 }
 
+.pland3:active{
+    background-color: rgb(235, 235, 235)
+}
+
 .pland4{
     grid-row: 10/12;
     grid-column: 1/11;
@@ -152,6 +160,11 @@ h2{
     border-width: 3px;
     border-color: rgb(209, 65, 225);
 }
+
+.pland4:active{
+    background-color: rgb(235, 235, 235)
+}
+
 h3{ 
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(209, 65, 225);
