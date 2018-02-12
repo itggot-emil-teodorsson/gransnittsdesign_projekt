@@ -99,7 +99,7 @@ p{
 }
 
 
-/* "Populära Resemål" listan */
+/* "Populära Resmål" listan */
 .populärt{
     grid-row: 6/13;
     grid-column: 2/10;
@@ -241,11 +241,12 @@ h3{
         grid-row: 2/4;
         grid-column: 5/6;
         font-size: 12px; 
+        border-width: 1px;
     }
 
-    /* "Populära resemål" listan */
+    /* "Populära Resmål" listan */
     .populärt{
-        grid-row: 3/8;
+        grid-row: 3/7;
         grid-column: 1/6;
     }
     
@@ -270,7 +271,18 @@ h3{
     }
 
     h3{
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom: 5px;
+    }
+
+    /* "Alfabetisk Ordning" listan */
+    .alfabetisk{
+        grid-row: 7/11;
+        grid-column: 1/6;
+    }
+
+    .alfabetisk p{
+        font-size: 10px;
+        letter-spacing: 4px; 
     }
 }
