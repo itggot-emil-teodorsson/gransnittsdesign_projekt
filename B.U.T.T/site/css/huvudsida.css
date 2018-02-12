@@ -171,6 +171,16 @@ h3{
     margin-left: 10px;
 }
 
+.land1 a{
+    grid-row: 4/6;
+    grid-column: 1/2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 65, 225);
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
 /* "Alfabetisk Ordning" listan */
  .alfabetisk{ 
     grid-row: 14/21;
