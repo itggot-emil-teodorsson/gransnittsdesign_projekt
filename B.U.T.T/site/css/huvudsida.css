@@ -30,7 +30,7 @@ header h1{
 
 input{
     grid-column: 3/9;
-    grid-row: 4/5;
+    grid-row: 3/4;
     font-size: 20px;
 }
 
