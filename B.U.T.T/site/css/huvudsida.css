@@ -322,6 +322,10 @@ h3{
         margin-bottom: 5px;
     }
 
+    .land1 a{
+        font-size: 12px;
+    }
+
     /* "Alfabetisk Ordning" listan */
     .alfabetisk{
         grid-row: 7/11;
