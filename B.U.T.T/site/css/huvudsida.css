@@ -144,6 +144,9 @@ h2{
 .land1{
     grid-row: 4/6;
     grid-column: 1/11;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(10,1fr);
+    display: grid;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(209, 65, 225);
@@ -156,6 +159,9 @@ h2{
 .land2{
     grid-row: 6/8;
     grid-column: 1/11;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(10,1fr);
+    display: grid;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(209, 65, 225);
@@ -168,6 +174,9 @@ h2{
 .land3{
     grid-row: 8/10;
     grid-column: 1/11;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(10,1fr);
+    display: grid;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(209, 65, 225);
@@ -180,6 +189,9 @@ h2{
 .land4{
     grid-row: 10/12;
     grid-column: 1/11;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(10,1fr);
+    display: grid;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(209, 65, 225);
@@ -190,14 +202,16 @@ h2{
 }
 
 h3{ 
+    grid-column: 1/2;
+    grid-row: 1/4;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(209, 65, 225);
     margin-left: 10px;
 }
 
 .land1 a{
-    grid-row: 4/6;
     grid-column: 1/2;
+    grid-row: 2/3;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(209, 65, 225);
     margin-left: 10px;
