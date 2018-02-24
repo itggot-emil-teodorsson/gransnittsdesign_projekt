@@ -371,6 +371,35 @@ h4{
         margin-top: 0px;
         margin-right: 0px;
     }
+
+    h4{
+        font-size: 10px;
+        grid-row: 2/4;
+        grid-column: 7/9;
+    }
+
+    .stjärnor{
+        grid-column: 9/11;
+    }
+
+    .stjärna1{
+        background-image: url(../img/Stjärna_mobil.png)
+    }
+    
+    .stjärna2{
+        background-image: url(../img/Stjärna_mobil.png)
+    }
+    
+    .stjärna3{
+        background-image: url(../img/Stjärna_mobil.png)
+    }
+    
+    .stjärna4{
+        background-image: url(../img/Stjärna_mobil.png)
+    }
+    
+    .stjärna5{
+        background-image: url(../img/Stjärna_mobil.png)
     }
 
     .hotell1 a{
