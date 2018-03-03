@@ -211,7 +211,7 @@ input{
     display: grid;
 }
 
-/* Bokaknapp */
+/* "Boka" knapp */
 a{
     grid-row: 17/18;
     grid-column: 5/7;
@@ -346,7 +346,7 @@ a{
         grid-column: 2/5;
     }
 
-    /* Bokaknapp */
+    /* "Boka" knapp */
     a{
         grid-row: 9/11;
         grid-column: 2/5;

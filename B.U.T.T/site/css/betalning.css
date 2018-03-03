@@ -285,6 +285,7 @@ h2{
     grid-column: 1/4;
 }
 
+/* "Betala" knapp */
 a{
     grid-row: 19/20;
     grid-column: 5/7;
@@ -294,7 +295,7 @@ a{
     text-decoration: none;
 }
 
-.bokaknapp{
+.betalaknapp{
     grid-row: 1/2;
     grid-column: 1/2;
     font-family: Arial, Helvetica, sans-serif;
@@ -305,7 +306,7 @@ a{
     transition-duration: 0.4s;
 }
 
-.bokaknapp:hover{
+.betalaknapp:hover{
     background-color: white;
     color: black;
     border: 2px solid rgb(209, 65, 225);
@@ -471,6 +472,7 @@ a{
         margin-right: 10px;
     }
 
+    /* "Betala" knapp */
     a{
         grid-row: 9/11;
         grid-column: 2/5;
