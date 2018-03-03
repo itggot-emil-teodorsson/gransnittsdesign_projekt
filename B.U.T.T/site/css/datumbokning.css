@@ -272,7 +272,7 @@ a{
     .hotell h1{
         font-size: 20px;
         border: none;
-        grid-row: 1/2;
+        grid-row: 2/3;
     }
 
 
@@ -302,4 +302,51 @@ a{
         font-size: 12px; 
         border-width: 1px;
     }
+
+    /* Bokningsdatum */
+    .incheckningsdatum{
+        grid-row: 3/6;
+        grid-column: 2/5;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+    }
+
+    .utcheckningsdatum{
+        grid-row: 5/8;
+        grid-column: 2/5;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    .incheckningsdatum h3{
+        margin-top: 30px;
+    } 
+
+    .utcheckningsdatum h3{
+        margin-top: 30px;
+    } 
+
+    input{
+        width: 55px;
+        font-size: 15px;
+    }
+
+    /* Rum/Antal personer */
+    .rum_personer{
+        grid-row: 7/9;
+        grid-column: 2/5;
+    }
+
+    /* Bokaknapp */
+    a{
+        grid-row: 9/11;
+        grid-column: 2/5;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
 }
