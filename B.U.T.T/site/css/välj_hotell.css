@@ -352,6 +352,11 @@ h4{
         grid-column: 5/6;
         font-size: 12px; 
         border-width: 1px;
+        margin-bottom: 30px;
+    }
+
+    nav p{
+        margin: 5px;
     }
 
     /* "Populära Städer" listan */
