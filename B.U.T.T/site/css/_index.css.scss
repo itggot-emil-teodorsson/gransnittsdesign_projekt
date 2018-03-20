@@ -1,3 +1,5 @@
+/* INDEX */
+
 body{
     background-color: grey;
 }
@@ -34,7 +36,7 @@ input{
     font-size: 20px;
 }
 
-.land{
+.plats{
     grid-row: 4/6;
     grid-column: 4/8;
     grid-template-columns: repeat(3,1fr);
@@ -42,7 +44,7 @@ input{
     display: grid;
 }
 
-.land h1{
+.plats h1{
     grid-row: 2/3;
     grid-column: 1/4;
     color: rgb(209, 65, 225);
@@ -140,7 +142,7 @@ h2{
     color: rgb(209, 65, 225);
 }
 
-.land1{
+.plats1{
     grid-row: 4/6;
     grid-column: 1/11;
     grid-template-rows: repeat(3,1fr);
@@ -151,11 +153,11 @@ h2{
     border-color: rgb(209, 65, 225);
 }
 
-.land1:active{
+.plats1:active{
     background-color: rgb(235, 235, 235)
 }
 
-.land2{
+.plats2{
     grid-row: 6/8;
     grid-column: 1/11;
     grid-template-rows: repeat(3,1fr);
@@ -166,11 +168,11 @@ h2{
     border-color: rgb(209, 65, 225);
 }
 
-.land2:active{
+.plats2:active{
     background-color: rgb(235, 235, 235)
 }
 
-.land3{
+.plats3{
     grid-row: 8/10;
     grid-column: 1/11;
     grid-template-rows: repeat(3,1fr);
@@ -181,11 +183,11 @@ h2{
     border-color: rgb(209, 65, 225);
 }
 
-.land3:active{
+.plats3:active{
     background-color: rgb(235, 235, 235)
 }
 
-.land4{
+.plats4{
     grid-row: 10/12;
     grid-column: 1/11;
     grid-template-rows: repeat(3,1fr);
@@ -196,11 +198,11 @@ h2{
     border-color: rgb(209, 65, 225);
 }
 
-.land4:active{
+.plats4:active{
     background-color: rgb(235, 235, 235)
 }
 
-h3{ 
+.populärt h3{ 
     grid-column: 1/2;
     grid-row: 1/4;
     font-family: Arial, Helvetica, sans-serif;
@@ -208,7 +210,16 @@ h3{
     margin-left: 10px;
 }
 
-.land1 a{
+.alfabetisk h3{ 
+    grid-column: 1/2;
+    grid-row: 1/4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 65, 225);
+    margin-left: 10px;
+}
+
+
+.plats1 a{
     grid-column: 1/2;
     grid-row: 2/3;
     font-family: Arial, Helvetica, sans-serif;
@@ -268,12 +279,12 @@ h3{
         margin-bottom: 0px;
     }
 
-    .land{
+    .plats{
         grid-row: 3/4;
         grid-column: 2/5;
     }
 
-    .land h1{
+    .plats h1{
         font-size: 20px;
         border: none;
         grid-row: 1/2;
@@ -323,12 +334,25 @@ h3{
         margin: 0px;
     }
 
-    h3{
+    .populärt h3{
         font-size: 12px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-right: 0px;        
+        grid-row: 2/3;
+        grid-column: 1/3;
     }
 
-    .land1 a{
+    .alfabetisk h3{
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-right: 0px;        
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    .plats1 a{
         font-size: 12px;
     }
 

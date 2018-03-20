@@ -11,7 +11,7 @@
         <header>
             <h1>B.U.T.T</h1>
         </header>
-        <button class="menyknapp" onclick="toggleMenu()">Meny</button>
+        <button onclick="toggleMenu()">Meny</button>
 
         <div class="hotell">
             <h1>Betalning:</h1>
@@ -29,95 +29,101 @@
         </div>
         <script src="js/menu.js"></script>
     
-        <div class="korttyp">
-            <h3>Välj Kort</h3>
-            <select>
-                <option>Fisa</option>
-                <option>GayGal</option>
-                <option>MasterTard</option>
-                <option>Canadian Express</option>
-            </select>
-        </div>
-
-        <div class="kortnummer">
-            <h3>Kortnummer</h3>
-            <input type="text">
-        </div>
-
-        <div class="utgångsdatum">
-            <h3>Utgångsdatum och säkerhetskod</h3>
+        <div class="uppgifter">
             
-            <select type="text" class="månad">
-                <option>--</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-                <option>05</option>
-                <option>06</option>
-                <option>07</option>
-                <option>08</option>
-                <option>09</option>
-                <option>10</option>
-                <option>11</option>
-                <option>12</option>
-            </select>
+            <div class="korttyp">
+                <h7>Välj Kort</h7>
+                <select>
+                    <option>Fisa</option>
+                    <option>GayGal</option>
+                    <option>MasterTard</option>
+                    <option>Canadian Express</option>
+                </select>
+            </div>
+
+            <div class="kortnummer">
+                <h7>Kortnummer</h7>
+                <input type="text">
+            </div>
+
+            <div class="utgångsdatum">
+                <h7>Utgångsdatum och säkerhetskod</h7>
+                
+                <select type="text" class="månad">
+                    <option>--</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                
+                <select type="text" class="år">
+                    <option>----</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                </select>
+                
+                <input type="text" class="säkerhetskod">
+            </div>
+
+            <h8>Faktureringsuppgifter:</h8>
+            <div class="namn">
+                <h7 class="förnamn">Förnamn</h7>
+                <input type="text" class="förnamn_input">
+
+                <h7 class="efternamn">Efternamn</h7>
+                <input type="text" class="efternamn_input">
+            </div>
             
-            <select type="text" class="år">
-                <option>----</option>
-                <option>2018</option>
-                <option>2019</option>
-                <option>2020</option>
-                <option>2021</option>
-                <option>2022</option>
-                <option>2023</option>
-                <option>2024</option>
-                <option>2025</option>
-                <option>2026</option>
-                <option>2027</option>
-                <option>2028</option>
-            </select>
-            
-            <input type="text" class="säkerhetskod">
+            <div class="stad">
+                <h7>Stad</h7>
+                <input type="text">
+            </div>
+
+            <div class="faktureringsadress">
+                <h7>Faktureringsadress</h7>
+                <input type="text">
+            </div>
+
+            <div class="postkod">
+                <h7>Postkod</h7>
+                <input type="text">
+            </div>
+
+            <div class="land">
+                <h7>Land</h7>
+                <input type="text">
+            </div>
+
+            <div class="telefonnummer">
+                <h7>Telefonnummer</h7>
+                <input type="text">
+            </div>
+
         </div>
 
-        <h2>Faktureringsuppgifter:</h2>
-        <div class="namn">
-            <h3 class="förnamn">Förnamn</h3>
-            <input type="text" class="förnamn_input">
-
-            <h3 class="efternamn">Efternamn</h3>
-            <input type="text" class="efternamn_input">
-        </div>
-        
-        <div class="stad">
-            <h3>Stad</h3>
-            <input type="text">
+        <div class="betala">
+            <a href="bokat_och_klart.html">
+                <button class="bokaknapp">Betala</button>
+            </a>
         </div>
 
-        <div class="faktureringsadress">
-            <h3>Faktureringsadress</h3>
-            <input type="text">
-        </div>
-
-        <div class="postkod">
-            <h3>Postkod</h3>
-            <input type="text">
-        </div>
-
-        <div class="land">
-            <h3>Land</h3>
-            <input type="text">
-        </div>
-
-        <div class="telefonnummer">
-            <h3>Telefonnummer</h3>
-            <input type="text">
-        </div>
-
-        <a href="bokat_och_klart.html">
-            <button class="betalaknapp">Betala</button>
-        </a>
-    
     </div>
 </body>
