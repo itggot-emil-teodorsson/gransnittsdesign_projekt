@@ -35,7 +35,7 @@ header h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px; }
 
-input {
+.sok_plats {
   grid-column: 3/9;
   grid-row: 1/3;
   font-size: 20px;
@@ -239,7 +239,7 @@ h2 {
     grid-row: 1/2;
     grid-column: 1/6; }
 
-  input {
+  .sok_plats {
     font-size: 15px;
     grid-column: 2/5;
     grid-row: 2/3;
@@ -879,19 +879,21 @@ h6 {
 /* BETALNING */
 /* Kortinfo */
 .korttyp {
-  grid-row: 6/8;
+  grid-row: 4/6;
   grid-column: 3/5;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   display: grid; }
 
-h7 {
+.betalning_text {
+  font-size: 18px;
   grid-row: 1/2;
-  grid-column: 1/3;
+  grid-column: 1/4;
   font-family: Arial, Helvetica, sans-serif;
   color: #d141e1;
   margin-top: 20px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  text-align: left; }
 
 select {
   grid-row: 2/3;
@@ -899,7 +901,7 @@ select {
   font-size: 15px; }
 
 .kortnummer {
-  grid-row: 8/10;
+  grid-row: 6/8;
   grid-column: 3/5;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -908,11 +910,12 @@ select {
 .kortnummer input {
   grid-row: 2/3;
   grid-column: 1/3;
-  font-size: 15px; }
+  font-size: 15px;
+  margin: 0px; }
 
 .utgangsdatum {
   grid-column: 6/9;
-  grid-row: 8/10;
+  grid-row: 6/8;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 10px;
@@ -928,14 +931,16 @@ select {
 
 .sakerhetskod {
   grid-row: 2/3;
-  grid-column: 3/4; }
+  grid-column: 3/4;
+  margin: 0px; }
 
 .utgangsdatum h3 {
   grid-column: 1/4; }
 
 /* Faktureringsuppgifter */
-h8 {
-  grid-row: 11/12;
+.betalning_titel {
+  font-size: 22px;
+  grid-row: 9/10;
   grid-column: 3/6;
   font-family: Arial, Helvetica, sans-serif;
   color: #d141e1;
@@ -944,30 +949,44 @@ h8 {
 
 .namn {
   grid-column: 3/6;
-  grid-row: 12/14;
+  grid-row: 10/12;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 10px;
   display: grid; }
 
 .fornamn {
+  font-size: 18px;
   grid-row: 1/2;
-  grid-column: 1/3; }
+  grid-column: 1/3;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d141e1;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: left; }
 
 .namn .fornamn_input {
   grid-row: 2/3;
-  grid-column: 1/3; }
+  grid-column: 1/3;
+  margin: 0px; }
 
 .efternamn {
   grid-row: 1/2;
-  grid-column: 3/5; }
+  grid-column: 3/5;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d141e1;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: left; }
 
 .namn .efternamn_input {
   grid-row: 2/3;
-  grid-column: 3/5; }
+  grid-column: 3/5;
+  margin: 0px; }
 
 .stad {
-  grid-row: 12/14;
+  grid-row: 10/12;
   grid-column: 7/9;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -975,10 +994,11 @@ h8 {
 
 .stad input {
   grid-row: 2/3;
-  grid-column: 1/4; }
+  grid-column: 1/4;
+  margin: 0px; }
 
 .faktureringsadress {
-  grid-row: 14/16;
+  grid-row: 12/14;
   grid-column: 3/6;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -986,10 +1006,11 @@ h8 {
 
 .faktureringsadress input {
   grid-row: 2/3;
-  grid-column: 1/4; }
+  grid-column: 1/4;
+  margin: 0px; }
 
 .postkod {
-  grid-row: 14/16;
+  grid-row: 12/14;
   grid-column: 7/9;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -997,10 +1018,11 @@ h8 {
 
 .postkod input {
   grid-row: 2/3;
-  grid-column: 1/4; }
+  grid-column: 1/4;
+  margin: 0px; }
 
 .land {
-  grid-row: 16/18;
+  grid-row: 14/16;
   grid-column: 3/6;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -1008,10 +1030,11 @@ h8 {
 
 .land input {
   grid-row: 2/3;
-  grid-column: 1/4; }
+  grid-column: 1/4;
+  margin: 0px; }
 
 .telefonnummer {
-  grid-row: 16/18;
+  grid-row: 14/16;
   grid-column: 7/9;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -1019,12 +1042,20 @@ h8 {
 
 .telefonnummer input {
   grid-row: 2/3;
-  grid-column: 1/4; }
+  grid-column: 1/4;
+  margin: 0px; }
 
 /* "Betala" knapp */
-.betala a {
-  grid-row: 19/20;
+.betala {
+  grid-row: 17/18;
   grid-column: 5/7;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  display: grid; }
+
+.betala a {
+  grid-row: 1/2;
+  grid-column: 1/2;
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(1, 1fr);
   display: grid;
@@ -1119,7 +1150,7 @@ h8 {
     margin-bottom: 35px; } }
 /* BOKAT OCH KLART */
 .titel {
-  grid-row: 3/5;
+  grid-row: 1/3;
   grid-column: 3/9;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -1142,7 +1173,7 @@ h8 {
 
 /* Info */
 .info {
-  grid-row: 6/18;
+  grid-row: 4/16;
   grid-column: 4/8;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -1153,15 +1184,22 @@ h8 {
   font-family: Arial, Helvetica, sans-serif; }
 
 /* "Tillbaka till startsidan" knapp */
-.tillbaka a {
-  grid-row: 18/20;
+.tillbaka {
+  grid-row: 16/18;
   grid-column: 5/7;
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(1, 1fr);
   display: grid;
-  text-decoration: none;
   margin-top: 15px;
   margin-bottom: 15px; }
+
+.tillbaka a {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  display: grid;
+  text-decoration: none; }
 
 .tillbakaknapp {
   grid-row: 1/2;
